@@ -12,8 +12,12 @@
 
    <body>
 
-      <?php 
-      include "include/nav-about.php"; ?>
+      <header>
+         <?php 
+            include "include/navbar.php";  
+
+         ?>
+      </header>
       <h1>A propos de moi</h1>
       <p>Voici les apercu de mes différents projets et mon <a class="github" href="https://github.com/orgus33"
             target="_blank">lien

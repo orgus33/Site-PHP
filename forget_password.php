@@ -13,10 +13,12 @@
    </head>
 
    <body>
-      <?php 
-      include "include/nav-home.php";  
+      <header>
+         <?php 
+            include "include/navbar.php";  
 
-      ?>
+         ?>
+      </header>
 
 
 

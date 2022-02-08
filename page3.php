@@ -11,9 +11,12 @@
    </head>
 
    <body>
-      <?php 
-      include "include/nav.php";      
-      ?>
+      <header>
+         <?php 
+            include "include/navbar.php";  
+
+         ?>
+      </header>
 
       <h1>Présentation de la page 3 :</h1>
 

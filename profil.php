@@ -14,7 +14,11 @@
 
    <body>
       <?php 
-      include "include/nav-profil.php";  
+      echo "<header>";
+         
+            include "include/navbar.php";  
+
+      echo "</header>"; 
 		
 		if(isset($_SESSION["pseudo"]) && isset($_SESSION["email"])) {
          

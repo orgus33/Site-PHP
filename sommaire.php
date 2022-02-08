@@ -11,7 +11,14 @@
    </head>
 
    <body>
-      <?php include "include/nav-sommaire.php"; ?>
+      <header>
+         <?php 
+            include "include/navbar.php";  
+
+         ?>
+      </header>
+
+      
       <h1>Sommaire : </h1>
       <ul class="sommaire">
          <li><a href="index.php">Home</a></li>

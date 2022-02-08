@@ -11,8 +11,12 @@
    </head>
 
    <body>
-      <?php 
-      include "include/nav-login.php";
+      <?php
+      echo "<header>";
+          
+            include "include/navbar.php";  
+      echo "</header>";
+      
       include "include/database.php";
       global $db;
 
